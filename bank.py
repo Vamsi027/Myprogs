@@ -23,12 +23,11 @@ l=manager()
 z=actions()
 l.queries()
 n=input('Tell u r choice')
-while(True):
-	if n==1:
-		z.details()
-	elif n==2:	
-		z.deposit()
-	elif n==3:			
-		z.withdraw()
-	else:
-		break
+if n==1:
+	z.details()
+elif n==2:	
+	z.deposit()
+elif n==3:			
+	z.withdraw()
+else:
+	break
